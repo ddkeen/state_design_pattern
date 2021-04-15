@@ -18,7 +18,6 @@ public class HomeState implements State{
     public void pressNetflixButton() {
         System.out.println("Loading Netflix...\n");
         tv.setState(tv.getNetflixState());
-
     }
 
     public void pressHuluButton() {
