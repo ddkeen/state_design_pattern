@@ -7,5 +7,7 @@ public interface State {
     public void pressHuluButton();
 
     public void pressMovieButton();
+
+    public void pressTVButton();
     
 }
