@@ -1,7 +1,12 @@
+/**
+ * NetflixState class that implements State, a State for the TV to be in
+ * Methods represent TV remote buttons and allow the TV to change states from Home, Netflix, Hulu, and watch movies or TV shows
+ * @author ddkeen
+ */
 public class NetflixState implements State{
 
     private TV tv;
-
+    //netflix tv shows and movies
     private String[] MOVIES = {"Freinds with Benefits", "21 and Over",  "Frozen", "James Bond", "American Hustle"};
     private String[] TVSHOWS = {"Spongebob", "Big Little Lies", "Dexter", "The Voice", "Jeopardy"};
 
